@@ -7,6 +7,13 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: Center(
+            child: Text(
+              'Xylophone',
+            ),
+          ),
+        ),
         body: SafeArea(
           child: Container(),
         ),
